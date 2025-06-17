@@ -1,0 +1,6 @@
+arch1=open("datos.txt","r+")
+contenido=arch1.read()
+print(contenido)
+arch1.write("Otra línea 1\n")
+arch1.write("Otra línea 2\n")
+arch1.close()

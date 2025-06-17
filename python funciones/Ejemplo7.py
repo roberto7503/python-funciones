@@ -1,0 +1,7 @@
+ruta=input("Nombre del archivo: ")
+arch1=open(ruta,"a")
+arch1.write("Primera linea\n")
+arch1.write("Segunda linea\n")
+arch1.write("Tercera linea\n")
+arch1.close()
+print("Fin del programa")
